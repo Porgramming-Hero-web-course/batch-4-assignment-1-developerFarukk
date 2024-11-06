@@ -18,10 +18,10 @@
 
 
     const personName = getProperty(person, "name");
-    console.log(personName);
+    // console.log(personName);
 
     const personAge = getProperty(person, "age");
-    console.log(personAge);
+    // console.log(personAge);
 
 
     // 

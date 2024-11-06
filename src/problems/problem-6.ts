@@ -18,7 +18,7 @@
     const updatedProfile = updateProfile(myProfile, { age: 26 });
     // const updatedProfile = updateProfile(myProfile, { name: "fff" });
 
-    console.log(updatedProfile);
+    // console.log(updatedProfile);
 
     // 
 }
