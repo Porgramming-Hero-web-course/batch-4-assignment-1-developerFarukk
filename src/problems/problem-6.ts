@@ -14,6 +14,7 @@
 
 
     const myProfile: Profile = { name: "Alice", age: 25, email: "alice@example.com" };
+    
     const updatedProfile = updateProfile(myProfile, { age: 26 });
     // const updatedProfile = updateProfile(myProfile, { name: "fff" });
 
