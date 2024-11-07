@@ -41,7 +41,6 @@ let AmivsApni: Ami & Apni = {
 - **Union and Intersection Types**: Understand the significance of TypeScript's union and intersection types and how they enhance type safety and code flexibility.
 - **Union Types (|)**: Allows a variable to accept one of several specified types, offering flexibility for handling different possible types.
 - **Intersection Types (&)**: Combines multiple types into a single type, requiring a variable or object to satisfy all combined types' properties.
-- **Intersection Types (&)**: Combines multiple types into a single type, requiring a variable or object to satisfy all combined types' properties.
 
 Using union types helps keep code adaptable, while intersection types enhance robustness when dealing with complex, multifaceted data. Both types are powerful tools that add versatility and type safety to TypeScript applications.
 
