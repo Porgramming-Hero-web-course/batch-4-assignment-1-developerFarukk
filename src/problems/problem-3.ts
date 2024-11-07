@@ -3,28 +3,29 @@
 
     // ******  <  Problem 3  >  *********
 
-    function countWordOccurrences( sentence: string, word: string ): number {
+    
 
-        const words = sentence.toLowerCase();
-        const wordSplite = words.split(/\s+/);
-        const wordMap = wordSplite.map(wordOrSentence => wordOrSentence.replace(/[^\w]/g, ''));
+    function countWordOccurrences (sentence: string, word: string) : number {
+     
+        const lowerCaseSentence = sentence.toLowerCase();
+        const lowerCaseWord = word.toLowerCase();
 
-        const targetWord = word.toLowerCase();
+        const wordsCount = lowerCaseSentence.split(" ");
 
-        let count = 0;
+        const count = wordsCount.filter( word => word === lowerCaseWord);
 
-        for (const words of wordMap) {
-            if (words === targetWord) {
-                count++;
-            }
-        }
+        const totalWord = count.length;
 
-        return count;
+        return totalWord;
     }
 
-    const result = countWordOccurrences("TypeScript is great. I love TypeScript!", "typescript");
+    const result = countWordOccurrences("I  love  typescript", "typescript");
+    // const result = countWordOccurrences("I typescript love typeScript typescript", "typescript");
 
-    // console.log(result); 
+    // console.log(result);
+    
+   
+
 
     // 
 }
