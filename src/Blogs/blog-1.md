@@ -9,7 +9,7 @@ Union and intersection types are advanced tools in TypeScript that help develope
 
 A union type in TypeScript allows a variable to hold one of several specified types, providing flexibility while maintaining type safety. It's defined using the | symbol, meaning "either/or" between types.
 
-## TypeScript Union Types
+## What is TypeScript Union?
 
 In TypeScript, a union type allows a variable to hold one of several specified types, providing flexibility while maintaining type safety. Union types are defined using the `|` symbol, which means "either/or" between types.
 
