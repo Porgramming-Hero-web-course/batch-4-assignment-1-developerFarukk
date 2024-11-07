@@ -26,9 +26,13 @@ An intersection type in TypeScript combines multiple types into a single, new ty
 ### Example:
 
 ```tsx
-let result: string & number;
-result = "world";
-result = 30;
+type Ami = { name: string };
+type Apni = { devNo: number };
+
+let AmivsApni: Ami & Apni = {
+    name: "baccha developer",
+    devNo: 1
+};
 
 ```
 
