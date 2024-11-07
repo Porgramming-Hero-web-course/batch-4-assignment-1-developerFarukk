@@ -26,6 +26,8 @@ out = 25;
 
 An intersection type in TypeScript combines multiple types into a single, new type. This means that an object of this type must have all the properties from each of the types in the intersection. It’s defined using the & symbol, meaning "and," as it requires an object to meet the requirements of both types.
 
+### Example:
+
 ```tsx
 let result: string & number;
 result = "world";
